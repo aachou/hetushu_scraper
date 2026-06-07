@@ -38,12 +38,6 @@ A：绝对不要手动关闭它！ 这是实现 100% 成功率的核心所在（
 
 ---
 
-Q: 脚本报错“Playwright not found”？
-
-A: 请重新执行 `pip install playwright` 和 `playwright install chromium`。
-
----
-
 Q: 抓取时提示连接失败？
 
 A: 本脚本设置了 20 秒的超时重试机制。如果网络环境不稳定，可以适当调大代码中的 `timeout` 参数，或检查你的网络是否能正常访问目标网站。
